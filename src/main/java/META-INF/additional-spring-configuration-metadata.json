@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "spring.redis.lettuce.pool.enableValidate",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.redis.lettuce.pool.enableValidate'"
+  },
+  {
+    "name": "spring.redis.lettuce.pool.validClass",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.redis.lettuce.pool.validClass'"
+  },
+  {
+    "name": "spring.redis.lettuce.pool.checkConnFailHandler",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.redis.lettuce.pool.checkConnFailHandler'"
+  },
+  {
+    "name": "spring.redis.lettuce.pool.checkResultHandler",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.redis.lettuce.pool.checkResultHandler'"
+  },
+  {
+    "name": "spring.redis.lettuce.pool.monitorHandler",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.redis.lettuce.pool.monitorHandler'"
+  }
+]}

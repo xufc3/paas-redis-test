@@ -1,0 +1,30 @@
+server:
+  port: 9090
+spring:
+  redis:
+    cluster:
+      nodes:
+      - 192.168.220.2:7000
+    lettuce:
+      pool:
+        max-idle: 100
+        min-idle: 20
+        max-active: 300
+        max-wait: -1
+        enableValidate: on 
+        validClass: com.migu.ocean.RedisConnValid 
+        checkConnFailHandler: com.migu.ocean.CheckConnFailHandler 
+        checkResultHandler: com.migu.ocean.CheckResultHandler
+        monitorHandler: com.migu.oceanMonitorHandler 
+    timeout: 30000
+management:
+  endpoints:
+#    enabled-by-default: true
+    web:
+      exposure:
+        include: 
+        - "*"
+  endpoint:
+    health:
+      show-details: always
+           
